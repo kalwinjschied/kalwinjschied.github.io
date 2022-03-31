@@ -1,1 +1,0 @@
-Kalwin Schied CWI Assingment 
