@@ -1,0 +1,90 @@
+/* Row 1 */
+
+#outerwrapper{
+    width: 650px;
+    background-color: #E7DBF6;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+nav{
+    width: 175px;
+    background-color: #E7DBF6;
+    float: left;
+}
+
+article{
+    margin-left: 175px;
+    background-color: white;
+    padding: 10px;
+     
+
+  
+}
+
+footer{
+    font-size: 12px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+.github{
+    size: 48px;
+
+}
+
+.linkedin{
+    size: 48px;
+}
+
+
+
+@font-face {
+    font-family: 'Kaushan';
+    src: url('../fonts/kaushanscript-regular-webfont.woff') format('woff'),
+         url('../fonts/kaushanscript-regular-webfont.woff2') format('woff2');
+}
+body{
+    background: url('../image/abstractPic.jpg');
+    background-size: cover;
+    font-family: 'Arial';
+    font-size: 1em;
+}
+h1{
+    font-family: Kaushan, sans-serif;
+    font-size: 2em;
+}
+h3{
+    font: 1.5em;
+    border: 1px, solid, black
+}
+.fonts{
+    color: orange;
+    font-family: 'Comic Sans MS';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.colors{
+    color: red;
+    font-weight: bold;
+}
+.more{
+    color: blue;
+    text-decoration: underline;
+    border-style: dashed;
+    border-color: gray;
+    border-spacing: 1px;
+    background-color: #D69BBE;
+}
+.backgrounds{
+    color: green;
+    font-family: 'Trebuchet MS';
+    font-size: 1.25em;
+}
+article ul{
+    list-style-image: url('../image/peace.png');
+} 
