@@ -1,0 +1,143 @@
+/*
+   Chapter 13   
+   Philip Henslowe Classic Theatre Typographic Style Sheet
+   Author: Kalwin Schied 
+   Date:  3/30/22
+   
+   Filename: ph_styles.css
+
+*/
+@font-face {
+    font-family: 'Champagne';
+    src: url('fonts/cac_champagne.woff2') format('woff2'),
+         url('fonts/cac_champagne.woff') format('woff'),
+         url('fonts/cac_champagne.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: '1942';
+    src:
+         url('fonts/1942.woff') format('woff'),
+         url('fonts/1942.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: 'Dobkin';
+    src: 
+         url('fonts/DobkinPlain.woff') format('woff'),
+         url('fonts/DobkinPlain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+/* Structural Styles */
+html{
+	background-color: hsl(91, 8%, 56%);
+}
+header{
+	background-color: black;
+}
+
+p {
+	margin: 0px;
+	padding: 5px 25px 25px 25px;
+}
+
+body{
+	background-color: hsl(58,31%, 84%);
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+body > p {
+	text-align: center;
+	font-size: 1.1em;
+	
+	
+}
+address {
+
+	font-size: 0.9em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Navigation Styles */
+nav a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family:  'Trebuchet MS', Helvetica, sans-serif;
+}
+
+nav a:link, nav a:visited {
+color:white;
+text-decoration: none;
+background-color: hsl(0, 0%, 42%, 0.7) ;
+
+}
+
+nav a:hover, nav a:active {
+color: hsla(0, 0%, 100%, 0.7);
+background-color:  hsl(0, 0%, 42%, 0.7)
+}
+
+
+/* Section Styles */
+section.playbill h1 {
+	margin: 0px;
+	padding: 20px 0px 10px 20px;
+	font-size: 3em;
+	font-weight: normal;
+
+}
+
+#play1 {
+	background-color: hsl(240, 100%, 88%) ;
+}
+
+#play1 h1{
+	font-family: 'Champagne', cursive;
+}
+
+
+#play2{
+	background-color: hsl(25, 88%, 73%) ;
+	
+}
+
+
+#play2 h1{
+	font-family:  '1942', 'Times New Roman', Times, serif;
+}
+
+#play3{
+	background-color: hsl(0, 100%, 75%);
+}
+
+#play3 h1{
+font-family:  Impact, Charcoal, sans-serif;
+}
+
+#play4{
+	background-color: hsl(296, 86%, 86%);
+
+}
+#play4 h1{
+	font-family: 'Dobkin', cursive;
+}
+
+/* Description List Styles */
+dt{
+	font-size: 1.3em;
+	font-weight: bold;
+	color: hsla(0, 0%, 0%, 0.4);
+
+}
+
+
+dd {
+	font-size: 1.3em;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
