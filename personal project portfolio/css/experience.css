@@ -1,0 +1,136 @@
+
+/*Kalwin Schied 4/13/22*/
+
+@font-face {
+    font-family: 'nobile';
+    src: url('nobile-medium-webfont.woff2') format('woff2'),
+         url('nobile-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; 
+}
+#outerwrapper{
+  height: 100vh;
+}
+
+header{
+    background: linear-gradient(#ECE9E6,white  );
+}
+
+nav, li{
+
+    list-style-type: none;
+    display: inline-block;
+   position: relative;
+   margin: 20px;
+
+   bottom: 1px;
+   font-size: 20px;
+ 
+
+}
+
+
+a{
+    text-decoration: none; 
+}
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #2BC0E4;
+  }
+
+
+  
+  /* selected link */
+  a:active {
+    color: #2BC0E4;
+  }
+
+
+
+  .floatright{
+    position: absolute;
+    top: 36px;
+ left: 883px;
+    font-size:24px;
+    font-family:'Square Peg','serif', cursive; 
+
+}
+.floatright img{
+    height: 150px;
+    width: auto;
+    
+}
+.second1{
+    background: linear-gradient(white, #2BC0E4 60%,#EAECC6 , white);
+    width: auto;
+    height: 600px;
+   color: black;
+   font-size: 24px;
+   text-align: center;
+   position: relative;
+
+
+}
+.short{
+    position: relative; 
+  
+
+}
+
+.first1{
+    height: 550px;
+    width: auto;
+    font-family: 'nobile', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+
+}
+footer{
+height: 100px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  bottom: 30px;
+  left:0px;
+    background: linear-gradient(white,#ECE9E6, white);
+   
+}
+
+
+#table{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
+    
+    
+}
+
+#table, th, td{
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.tablerow:hover{
+  color: red;
+}
+
+#par{
+  position: relative; 
+  top: 50px;
+}
+
+body{
+  margin: 0px;
+}

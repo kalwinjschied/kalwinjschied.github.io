@@ -1,0 +1,145 @@
+
+/*Kalwin Schied 4/13/22*/
+
+@font-face {
+    font-family: 'nobile';
+    src: url('nobile-medium-webfont.woff2') format('woff2'),
+         url('nobile-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+
+header{
+    background: linear-gradient(#ECE9E6,white  );
+}
+
+nav, li{
+
+    list-style-type: none;
+    display: inline-block;
+   position: relative;
+   margin: 20px;
+
+   bottom: 1px;
+   font-size: 20px;
+ 
+
+}
+
+
+a{
+    text-decoration: none; 
+}
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #2BC0E4;
+  }
+
+
+  
+  /* selected link */
+  a:active {
+    color: #2BC0E4;
+  }
+
+  .floatright{
+    position: absolute;
+    top: 55px;
+    Right: 150px; 
+    font-size:24px;
+   
+
+}
+.floatright img{
+    height: 150px;
+    width: auto;
+}
+.second2{
+    background: linear-gradient(white, #2BC0E4 50%,#EAECC6 , white);
+    width: auto;
+    height: 700px;
+   color: black;
+   font-size: 38px;
+   text-align: center;
+}
+.secondP{
+position: relative;
+top: 150px;
+font-family:'Square Peg','serif', cursive; 
+
+}
+.short2{
+    width: auto;
+  height: 300px;
+text-align: center;
+  border: 1px solid #2BC0E4;
+  box-shadow: 13px 13px rgb(205, 203, 203);
+position: relative;
+padding: 70px;
+
+
+
+
+}
+
+.first2{
+    height: 550px;
+    width: auto;
+    font-family: 'nobile', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+  
+    bottom: 50px;
+    margin: 105px;
+   
+}
+
+footer{
+    height: 200px;
+    width: auto;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    background: linear-gradient(white,
+        
+    #ECE9E6  );
+}
+
+.another2{
+    height: 450px;
+    width: auto;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inerrdiv{
+    padding: 110px 20px;
+    text-align: center;
+    border: 1px solid #2BC0E4;
+    border-radius: 12px;
+    height: 250px;
+    margin: 30px;
+    box-shadow: 5px 5px #2BC0E4;
+
+
+}
+
+body{
+  margin: 0px;
+}

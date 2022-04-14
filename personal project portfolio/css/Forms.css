@@ -1,0 +1,105 @@
+
+/*Kalwin Schied 4/13/22*/
+
+@font-face {
+    font-family: 'nobile';
+    src: url('nobile-medium-webfont.woff2') format('woff2'),
+         url('nobile-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+
+header{
+    background: linear-gradient(#ECE9E6,white  );
+}
+
+nav, li{
+
+    list-style-type: none;
+    display: inline-block;
+   position: relative;
+   margin: 20px;
+
+   bottom: 1px;
+   font-size: 20px;
+ 
+
+}
+
+a{
+    text-decoration: none; 
+}
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #2BC0E4;
+  }
+
+
+  
+  /* selected link */
+  a:active {
+    color: #2BC0E4;
+  }
+
+
+
+  .floatright{
+    position: absolute;
+    top: 35px;
+    Right: 150px; 
+    font-size:24px;
+    
+    font-family:'Square Peg','serif', cursive; 
+
+}
+.floatright img{
+    height: 150px;
+    width: auto;
+}
+
+
+body{
+    margin: 0px;
+  }
+#foot{
+  
+ 
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+  
+
+    background: linear-gradient(white,
+        
+    #ECE9E6  );
+   
+}
+
+
+.forms{
+    font-size: 15px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+  
+}
+
+html{
+    height: 100%;
+}
+
+fieldset{
+    margin-top: 50px;
+}
