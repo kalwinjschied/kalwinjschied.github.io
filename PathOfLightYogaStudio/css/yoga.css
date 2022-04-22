@@ -1,0 +1,98 @@
+
+/*Kalwin Schied  4/22/22*/
+
+body { 
+	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header { 
+	background-color: #9BC1C2; 
+    background-image: url(../images/lilyheader.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+h1 { 
+	text-indent: 1em;
+    line-height: 400%; 
+}
+
+nav { 
+     font-weight: bold; 
+
+	
+}
+
+nav ul li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+footer { 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+	padding: .5em;
+	margin-bottom: .5em;
+}
+
+main ul {
+	list-style-image:url("../images/yogabullet.png") ;
+	margin-left: 3em;
+}
+
+.schedule{
+	border-collapse: collapse;
+	border: solid black 1px;
+	width: 100%;
+	margin-bottom: .5em;
+
+}
+
+tbody tr td{
+	border: solid black 1px;
+	text-align: center;
+}
+
+/*********************************/
+/*Mobile View 
+/***********************************/
+@media screen and (max-width: 641px){
+
+img{
+    width: 100%;
+}
+
+header{
+	background-image: none;
+}
+
+img{
+	display: none;
+}
+
+body{
+	background-image: url(../images/yogamobile.png);
+}
+}
+
+
+/*******************************/
+/*Tablet View
+/******************************/
+
+@media screen and (min-width: 641px){
+
+nav ul li{
+	display:inline;
+}
+
+body{
+	background-color: #F5F5F5;
+}
+}
