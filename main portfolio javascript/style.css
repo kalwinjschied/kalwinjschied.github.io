@@ -1,0 +1,72 @@
+ @media(max-width:320px){
+.land{
+  padding-top :  50px;
+}
+
+ }
+ 
+ .about{
+    padding-top: 104px;
+    padding-bottom: 104px;
+ 
+ }
+
+ .about1{
+    padding-top: 104px;
+    padding-bottom: 104px;
+ 
+ }
+
+ .head-about{
+    font-size: 50px;
+ }
+
+ .head-classes{
+    font-size: 27px;
+ }
+
+ .projects{
+    padding-top: 60px;
+    padding-bottom: 60px;
+ }
+
+ .first-row{
+    padding-top: 80px;
+    padding-bottom: 100px;
+ }
+
+ .second-row{
+   
+    padding-bottom: 110px;
+ }
+
+ .third-row{
+  
+   
+        padding-bottom: 100px;
+     
+ }
+
+ .profile{
+    padding-bottom: 30px;
+ }
+
+.foot{
+    color: #ffc107;
+}
+
+.heading{
+    padding-bottom: 800px;
+}
+
+.hi{
+    position: relative;
+ left: 300px;
+    text-align: center;
+    padding-top: 40px
+}
+
+.contact{
+    padding-top: 230px;
+}
+
