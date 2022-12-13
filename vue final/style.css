@@ -1,0 +1,131 @@
+span{
+ font-size: large;
+ color: black;
+
+}
+
+.first, .second, .third, .fourth{
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.first {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-size: 26px;
+}
+
+ .second {
+    padding-top: 0px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.third {
+    
+    padding-bottom: 200px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.couple{
+    box-shadow: 0 0 8px 8px white inset;
+
+}
+.parallax {
+    /* The image used */
+    background-image: url("image/rural12.jpg");
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    box-shadow: 0 0 8px 8px white inset;
+  }
+
+  .parallax2 {
+    /* The image used */
+    background-image: url("image/Male-Model.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    box-shadow: 0 0 8px 8px white inset;
+  }
+
+  .parallax3 {
+    /* The image used */
+    background-image: url("image/animal-free.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    box-shadow: 0 0 8px 8px white inset;
+  }
+
+
+  .top{
+    padding-top: 40px;
+  }
+
+  .fourth{
+   
+    padding-bottom: 200px;
+  }
+
+  .btn{
+    display: none;
+  }
+
+  .images{
+    text-align: center;
+
+  }
+
+  .alaske{
+   
+    font-size: 50px;
+
+  }
+
+  #data{
+    padding-top: 40px;
+  }
+
+  .collapse{
+    color: black;
+  }
+
+  .icon{
+    font-size: 15px;
+    position: relative;
+    right: 7px;
+  }
+
+  .port{
+    font-size: 24px;
+  }
+
+  .discount{
+background-color: gray;
+padding-top: 24px;
+padding-bottom: 24px;
+
+  }
