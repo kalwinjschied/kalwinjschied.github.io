@@ -1,0 +1,211 @@
+/*
+    Student Name: kalwin schied     
+    File Name: Dr. Drink
+    Date: 8/28/22
+*/
+
+/* Media Query for mobile Viewport */
+@media (min-width:414px) {  
+
+    h2 {
+        font-size: 120%;
+        padding: .25em 0 .25em 25px;
+        cursor: pointer;
+        background: url(images/plus.png) no-repeat  right center;
+        position: relative;
+        bottom: 30px;
+        right: 20px;
+
+    }
+    h2.minus {
+        
+        background: url(images/minus.png) no-repeat  right  center;
+        position: relative;
+        bottom: 30px;
+        right: 20px;
+
+    }
+
+
+}
+
+@media (min-width:768px) {  
+
+    h2 {
+        font-size: 120%;
+        padding: .25em 0 .25em 25px;
+        cursor: pointer;
+        background: url(images/plus.png) no-repeat  right center;
+        position: relative;
+        bottom: 30px;
+        right: 140px;
+    }
+    h2.minus {
+        
+        background: url(images/minus.png) no-repeat  right  center;
+        position: relative;
+        bottom: 30px;
+        right: 140px;
+    }
+
+
+}
+
+@media (min-width:1280px) {  
+
+    h2 {
+        font-size: 120%;
+        padding: .25em 0 .25em 25px;
+        cursor: pointer;
+        background: url(images/plus.png) no-repeat  right center;
+        position: relative;
+        bottom: 30px;
+        right: 300px;
+
+    }
+    h2.minus {
+        
+        background: url(images/minus.png) no-repeat  right  center;
+        position: relative;
+        bottom: 30px;
+        right: 300px;
+
+    }
+
+
+}
+
+/*@media (min-width:500px) {  
+
+    h2 {
+        font-size: 120%;
+        padding: .25em 0 .25em 25px;
+        cursor: pointer;
+        background: url(images/plus.png) no-repeat  right center;
+        position: relative;
+        bottom: 30px;
+        right: 50px;
+    }
+    h2.minus {
+        
+        background: url(images/minus.png) no-repeat  right  center;
+        position: relative;
+        bottom: 30px;
+        right: 50px;
+    }
+
+
+}
+
+*/
+
+.logo {
+    background-image: url(images/rsz_fulllogo_transparent_nobufferoriginal.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.imges{
+    position: relative;
+
+}
+
+
+
+
+
+/* Media Query for Tablet Viewport */
+/*@media (max-width: 1000px) {  
+
+ 
+    h2 {
+        font-size: 120%;
+        padding: .25em 0 .25em 25px;
+        cursor: pointer;
+        background: url(images/plus.png) no-repeat  right center;
+        position: relative;
+        bottom: 30px;
+        right: 100px;
+    }
+    h2.minus {
+        
+        background: url(images/minus.png) no-repeat  right  center;
+        position: relative;
+        right: 100px;
+    }
+    
+}
+
+
+*/
+
+
+
+
+
+/* Media Query for laptop Viewport */
+/*@media (min-width:700px) {  
+
+    h2 {
+        font-size: 120%;
+        padding: .25em 0 .25em 25px;
+        cursor: pointer;
+        background: url(images/plus.png) no-repeat  right center;
+        position: relative;
+        bottom: 30px;
+        right: 350px
+        
+    }
+    h2.minus {
+        
+        background: url(images/minus.png) no-repeat  right  center;
+        position: relative;
+        bottom: 30px;
+        right: 350px
+    }
+
+  
+    
+}
+
+*/
+
+
+   
+  .hide{
+    display: none;
+  }
+
+main{
+    position: relative;
+    top: 100px;
+    
+    margin-bottom: 358px;
+}
+
+#first{
+    font-size: 24px;
+}
+
+.footer{
+    margin-bottom: auto;
+}
+
+.div-1{
+    position: relative; 
+    top: 80px;
+}
+
+.div-2{
+    position: relative; 
+    top: 100px;
+}
+
+.statement{
+    color: #48b9fa;
+    font-size: 22px;
+}

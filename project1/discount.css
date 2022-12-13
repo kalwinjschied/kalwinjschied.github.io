@@ -1,0 +1,41 @@
+
+@media (max-width: 670px) {  
+
+    
+
+  footer{
+    position: relative;
+    top: 100px;
+    margin-bottom: 130px;
+  }
+
+
+
+}
+
+main{
+  position: relative;
+  top: 150px;
+  margin-bottom: 130px;
+}
+
+.ui-progressbar {
+    position: relative;
+  }
+  .progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+
+  footer{
+    position: relative;
+    top: 100px;
+   margin-bottom: 121px;
+  }
+
+  .statement{
+    font-size: 20px;
+  }
